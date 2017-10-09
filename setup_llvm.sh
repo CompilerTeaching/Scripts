@@ -6,7 +6,7 @@ CLANG_REPO=${REPO_BASE}/clang
 # llvm-release subdirectory of this directory.
 INSTALL_PREFIX=/auto/groups/acs-software/L25/
 # Which git tag are we going to build?
-RELEASE=release_40
+RELEASE=release_50
 
 git clone ${LLVM_REPO}
 cd llvm

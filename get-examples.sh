@@ -1,6 +1,6 @@
 #!/bin/sh
 DIR=`dirname $0`
-LLVM_VERSION=4.0.1
+LLVM_VERSION=5.0.1git-ff6b4d3
 if [ -z $LLVM_RELEASE_DIR ] ; then
 	LLVM_RELEASE_DIR=$DIR/llvm-release
 fi
